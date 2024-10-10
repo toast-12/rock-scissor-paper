@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #ff4242;
     margin: 0;
 }
 
@@ -13,6 +13,9 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,10 +34,15 @@ h2 {
     text-decoration: none;
     transition: transform 0.2s;
     cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    transition: all 1s ease;
 }
 
 .choice:hover {
     transform: scale(1.1);
+    transition: all 1s ease;
+    background-color: #333;
 }
 
 .choice:active {
